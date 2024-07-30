@@ -65,16 +65,18 @@ function format(millisec) {
     <>
       <div className="bg-black h-screen text-white grid grid-row-2 gap-5">
         
-        <div id="display" className='flex justify-center items-center'><h1 className=' text-9xl border-emerald-400 border-8 p-8 font-extrabold text-emerald-300'>{format(currentTime)}</h1></div>
+        <div id="display" className='flex justify-center items-center'><h1 className='text-9xl border-emerald-400 border-8 p-20 font-extrabold text-emerald-300'>{format(currentTime)}<div className='grid grid-cols-4'><h1 className='text-xl'>Hour</h1><h1 className='text-xl'>min</h1><h1 className='text-xl'>sec</h1><h1 className='text-xl'>ms</h1></div></h1></div>
         <div id="buttons" className='grid grid-cols-2 gap-5' >
           <div className='col-span-3'></div>
           <div className='grid grid-row-3 grid-col-3'>
           <div className='col-span-3 col-span-1'></div>
+          <div></div>
             <button className="bg-teal-800 border-8 border-emerald-400 font-extrabold text-7xl hover:bg-teal-600" onClick={handleStartStop}>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
             <div className='col-span-3'></div>
             </div>
             <div className='grid grid-row-3 grid-col-3'>
           <div className='col-span-3 col-span-1'></div>
+          <div></div>
           <button className="bg-red-900 border-8 border-emerald-400 font-extrabold text-7xl hover:bg-red-600" onClick={handleReset}>RESET [R]</button>
             <div className='col-span-3'></div>
             </div>
