@@ -47,6 +47,7 @@ To set up and run this project, follow these steps:
 ## Development
 
 - **Scripts:**
+  - `npm i`: Installs Dependencies.
   - `npm run dev`: Starts the development server.
   - `npm run build`: Builds the project for production.
   - `npm run start`: Starts the production server.
