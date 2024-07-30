@@ -1,7 +1,7 @@
 # Stopwatch Application
 
 This is a simple stopwatch application built using React. It allows you to start, stop, and reset a stopwatch, displaying elapsed time in hours, minutes, seconds, and milliseconds.
-
+https://github.com/user-attachments/assets/24258007-28f2-4a20-b77f-594f6d0ab641
 ## Features
 
 - **Start/Stop:** Begin or pause the stopwatch.
