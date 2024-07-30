@@ -68,8 +68,8 @@ function format(millisec) {
         <div id="display"><h1 className='text-9xl text-center'>{format(currentTime)}</h1></div>
         <div id="buttons" className='flex flex-row gap-96'>
           <div></div>
-          <button onClick={handleStartStop} className='bg-slate-500'>{isRunning?"STOP":"START"}</button>
-          <button onClick={handleReset} className='bg-red-600'>RESET</button>
+          <button onClick={handleStartStop} className='bg-slate-500'>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
+          <button onClick={handleReset} className='bg-red-600'>RESET [R]</button>
           <div></div>
         </div>
         </div>
