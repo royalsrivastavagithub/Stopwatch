@@ -64,15 +64,16 @@ function format(millisec) {
   return (
     <>
       <div className="bg-zinc-800 h-screen text-white">
-        <div className='bg-slate-600 border-8'><h1 className='text-center'>STOP WATCH</h1></div>
-        <div id="display"><h1 className='text-9xl text-center'>{format(currentTime)}</h1></div>
-        <div id="buttons" className='flex flex-row gap-96'>
-          <div></div>
-          <button onClick={handleStartStop} className='bg-slate-500'>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
-          <button onClick={handleReset} className='bg-red-600'>RESET [R]</button>
-          <div></div>
+        
+        <div id="display"><h1>{format(currentTime)}</h1></div>
+        <div id="buttons">
+          
+          <button onClick={handleStartStop}>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
+          <button onClick={handleReset}>RESET [R]</button>
+         
         </div>
         </div>
+        
     </>
   )
 }
