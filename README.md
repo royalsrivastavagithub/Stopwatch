@@ -54,4 +54,4 @@ To set up and run this project, follow these steps:
 - **Dependencies:**
   - Vite
   - React
-  -TailWind
+  - Tailwind
