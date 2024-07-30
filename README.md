@@ -42,7 +42,7 @@ To set up and run this project, follow these steps:
 
 5. **Open the Application:**
 
-   Open your browser and navigate to `http://localhost:3000` to view the stopwatch application.
+   Open your browser and navigate to `http://localhost:[port_number]` to view the stopwatch application.
 
 ## Development
 
@@ -52,17 +52,6 @@ To set up and run this project, follow these steps:
   - `npm run start`: Starts the production server.
 
 - **Dependencies:**
+  - Vite
   - React
-  - [Any additional dependencies]
-
-## Contributing
-
-Feel free to open issues or submit pull requests for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Replace `<repository-url>` and `<project-directory>` with your actual repository URL and project directory name. You can adjust the sections as needed based on your project's specific setup and requirements.
+  -TailWind
