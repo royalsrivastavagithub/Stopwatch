@@ -71,7 +71,7 @@ function format(millisec) {
           <div className='grid grid-row-3 grid-col-3'>
           <div className='col-span-3 col-span-1'></div>
           <div></div>
-            <button className="bg-teal-800 border-8 border-emerald-400 font-extrabold text-7xl hover:bg-teal-600" onClick={handleStartStop}>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
+            <button className="bg-teal-800 border-8 border-emerald-400 font-extrabold text-7xl hover:bg-teal-600 font-mono" onClick={handleStartStop}>{isRunning?"STOP [SPACE]":"START [SPACE]"}</button>
             <div className='col-span-3'></div>
             </div>
             <div className='grid grid-row-3 grid-col-3'>
